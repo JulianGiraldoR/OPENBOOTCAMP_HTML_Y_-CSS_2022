@@ -1,0 +1,42 @@
+
+/*colores y fuentes del titulo*/
+h1{
+
+    color: blue;
+}
+
+/*colores y fuentes del parrafo*/
+p{
+    color: rgb(197, 127, 255);
+    font-size: 20pt;
+}
+
+/*selectores de id*/
+
+#primer-parrafo{
+    color: blue;
+    font-size: 20pt;
+}
+
+#segundo-parrafo{
+    color: crimson;
+    font-size: 20pt;
+}
+/*selectores de clase*/
+
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+/*selectores universal*/
+*{
+    color: yellowgreen;
+}
+
+*.warning{
+    color:red;
+}
+.autor, .fecha, .ubicacion, h1, #primer-parrafo{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,33 @@
+
+/*estilo para colores*/
+.colores{
+    color:red;
+}
+
+.color-hexadecimal{
+    color:#7CC6FE
+}
+
+.color-rgb{
+    color:rgb(53,71,226)
+}
+
+.color-rgba{
+    color:rgba(10, 10, 10, 0.85)
+}
+
+/*fondos*/
+
+.fondo{
+    /*background-color: aquamarine;*/
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples1.png");
+    background-position: right bottom;
+
+}
+
+.fondo-interno{
+    /*background-color: aquamarine;*/
+    background-image: url("imagenes/fondo.jpg");
+    background-position: right bottom;
+
+}
