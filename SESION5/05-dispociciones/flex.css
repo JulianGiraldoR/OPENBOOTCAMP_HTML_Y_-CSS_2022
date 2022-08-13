@@ -1,0 +1,30 @@
+/*https://codepen.io/enxaneta/full/adLPmv*/
+
+.flex{
+    background-color: yellow;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+ 
+}
+
+.contenido1{
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido2{
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido3{
+    background-color: green;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}

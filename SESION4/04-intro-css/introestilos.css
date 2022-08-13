@@ -31,3 +31,23 @@
     background-position: right bottom;
 
 }
+
+.ancho{
+    background-color: #7CC6FE;
+    width: 100px;
+}
+.alto{
+    background-color: aqua;
+    height: 100px;
+    
+}
+.tarjeta{
+    border-style:solid ;
+    border-color: blue;
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin:10px 20px ;
+
+}
+

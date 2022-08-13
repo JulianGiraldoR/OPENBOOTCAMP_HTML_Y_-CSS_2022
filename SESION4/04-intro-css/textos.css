@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+html{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+    font-style: italic;
+}
