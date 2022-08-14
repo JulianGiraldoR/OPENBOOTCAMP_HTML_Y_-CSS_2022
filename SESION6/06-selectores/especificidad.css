@@ -1,0 +1,21 @@
+
+
+#h1-id{
+    color: darkcyan;
+}
+
+
+.h1-class{
+    color: rgb(167, 182, 33);
+}
+
+h1{
+    color: blue !important;/*evitar el uso del important*/
+
+}
+
+
+
+p{
+    color: red;
+}

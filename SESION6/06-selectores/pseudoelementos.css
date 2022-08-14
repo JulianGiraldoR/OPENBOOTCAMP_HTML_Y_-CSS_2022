@@ -1,0 +1,42 @@
+.contenedor{
+    width: 400px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+div{
+    background-color: aqua;
+}
+span.frase{
+    font-style: italic;
+}
+span.frase::before{
+    content: '<< ';
+    font-size: xx-small;
+}
+span.frase::after{
+    content: ' >>';
+    font-size: xx-small;
+}
+
+.libro {
+    background-color: bisque;
+    padding: 15x;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.libro p::first-letter{
+    font-size: xx-large;
+}
+.libro p::first-line{
+    background-color: blue;
+}
+
+.libro p::selection{
+    background-color: aquamarine;
+    color: lime;
+}
+
+.listado li::marker{
+    color: brown;
+}

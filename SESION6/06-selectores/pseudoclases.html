@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pseudoclases.css">
+    <title>Pseudoclases</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hover  {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+        .hover:hover{/*se activa cuando pasa el raton*/
+            background-color: aqua;
+
+        }
+        .listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }
+        .listado p:first-child{
+            color: white;
+
+        }
+        /*el orden es el q esta en la parte de abajo*/
+
+        a:link{/*link no visitado*/
+            color: coral;
+        }
+        a:visited{
+            color: gold;
+        }
+        a:hover{
+            color: pink;
+        }
+        a:active{
+            color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hover">
+    <p>Culpa in Lorem veniam et non. Nulla consequat velit consequat </p>
+    </div>
+    <div class="listado">
+        <p>parrafo1</p>
+        <p>parrafo2</p>
+        <p>parrafo3</p>
+
+    </div>
+    <div class="enlaces">
+        <a href="https://www.google.com" target="_blank">enlace a google</a>
+        <a href="https://www.facebook.com" target="_blank">enlace a facebook</a>
+
+    </div>
+</body>
+</html>
