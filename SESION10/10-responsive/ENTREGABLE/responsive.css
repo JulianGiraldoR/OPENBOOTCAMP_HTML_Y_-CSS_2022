@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: auto;
+    grid-template-rows: 0fr 0fr 1fr;
+   
+    justify-content: center;
+    vertical-align: baseline;
+    
+ 
+}
+
+.item{
+    background-color: blueviolet;
+    padding: 0.25rem;
+    color: white;
+    font-size: 2rem;
+    border: solid 1px blue;
+}
